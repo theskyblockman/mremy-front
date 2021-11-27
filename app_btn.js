@@ -7,7 +7,7 @@ function click_alert() {
     } else if (button_value === "Shorten") {
         const copy_value = document.getElementById("inputshortcut").value;
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", 'http://mremy.herokuapp.com/add_link', true);
+        xhr.open("POST", 'https://mremy.herokuapp.com/add_link', true);
         xhr.setRequestHeader("Content-Type", "text/plain");
         xhr.setRequestHeader('redirect_link', copy_value);
 
