@@ -17,7 +17,7 @@ function click_alert() {
 
             console.log(xhr.getResponseHeader('link'));
             if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-                const url_txt = `https://www.mremy.me/redirect/${xhr.getResponseHeader('link')}`;
+                const url_txt = `https://mremy.herokuapp.com/redirect/${xhr.getResponseHeader('link')}`;
                 document.getElementById("inputshortcut").value = url_txt;
                 document.getElementById("myButton1").value = "Copy";
             }
