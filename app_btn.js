@@ -28,8 +28,3 @@ function click_alert() {
         onChange();
     }
 }
-
-function redirect_github() {
-    parent.open('https://www.github.com/MaxenceR26')
-    parent.open('https://www.github.com/theskyblockman')
-}
